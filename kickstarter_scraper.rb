@@ -17,4 +17,4 @@ create_project_hash
 #image link: project.css("div.project-thumbnail a img").attribute("src").
 #text: project.css("p.bbcard_blurb").text
 #project.css("ul.project-stats li.first.funded strong").text.gsub("%", "").to_i
-
+# location: project.css("ul.project-meta span.location-name").text
